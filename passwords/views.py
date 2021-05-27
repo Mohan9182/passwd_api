@@ -4,8 +4,6 @@ from rest_framework import status
 from .models import Password
 from .serializers import PasswordSerializer
 
-# Create your views here.
-
 class ListPasswords(APIView):
     
     def get(self, request):
